@@ -11,8 +11,8 @@ var myApp = angular.module( "myApp", ["ngRoute"] );
       redirectTo: "/home"
     });
   }); // end myApp.config
-
-
+  
+  // thank you, http://weblogs.asp.net/dwahlin/using-an-angularjs-factory-to-interact-with-a-restful-service
   myApp.controller( "ProductsController", ["$scope", "dataFactory", function($scope, dataFactory) {
 
     $scope.products;
