@@ -1,3 +1,5 @@
+    // thank you, http://weblogs.asp.net/dwahlin/using-an-angularjs-factory-to-interact-with-a-restful-service
+    
     myApp.factory( "dataFactory", [ "$http", function( $http ) {
 
     var url = "http://localhost:3007/products";
