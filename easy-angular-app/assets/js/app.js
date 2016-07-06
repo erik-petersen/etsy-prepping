@@ -77,6 +77,7 @@ myApp.controller( "CartController", ["$scope", "dataFactory", function($scope, d
   } // end getCart()
 }]); // end controller( "ProductsController" )
 
+// thank you, https://github.com/tiyd-fee-2016-05/demos/blob/master/angularjs-click-event/index.html for helping with this controller
 myApp.controller('Menu', function( $scope ) {
     $scope.showMenu = false;
     $scope.revealMenu = function() {
