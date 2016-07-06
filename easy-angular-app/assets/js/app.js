@@ -75,5 +75,11 @@ myApp.controller( "CartController", ["$scope", "dataFactory", function($scope, d
           console.log( "You are a miserable failure: " + error.message );
         });
   } // end getCart()
-
 }]); // end controller( "ProductsController" )
+
+myApp.controller('Menu', function( $scope ) {
+    $scope.showMenu = false;
+    $scope.revealMenu = function() {
+        $scope.showMenu = !$scope.showMenu;
+    }
+}); // end controller( "Menu" )
