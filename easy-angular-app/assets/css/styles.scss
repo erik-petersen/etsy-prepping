@@ -1,0 +1,49 @@
+@import "../../bower_components/meyer-reset/stylesheets/_meyer-reset.scss";
+@import "../../bower_components/susy/sass/susy";
+@import "_products.scss";
+@import "_cart.scss";
+
+$headingFonts: sans-serif;
+$headingSize: 2em;
+$backgroundColor: #61A1BC;
+$mainFontColor: #fff;
+$iconSize: 2em;
+
+$susy: (
+  columns: 12,
+  container: 100%
+);
+
+body {
+  background-color: $backgroundColor;
+  color: $mainFontColor;
+
+  nav a {
+    text-decoration: none;
+    display: inline;
+    text-align: right;
+    color: $mainFontColor;
+    opacity: .75;
+  }
+}
+
+.fa-bars {
+  // display: block;
+  text-align: right;
+  padding: .5em .5em 0 0;
+  font-size: $iconSize;
+  cursor: pointer;
+}
+
+header h1 {
+  text-align: center;
+  font-family: $headingFonts;
+  font-size: $headingSize;
+  font-weight: 700;
+  margin-top: .75em;
+}
+
+main {
+  @include container;
+  box-sizing: border-box;
+}

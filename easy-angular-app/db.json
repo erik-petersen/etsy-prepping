@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "Name": "Gum",
+      "Photo": "assets/images/gum.jpg",
+      "Price": 2.5
+    },
+    {
+      "id": 1,
+      "Name": "Atari 2600",
+      "Photo": "assets/images/atari.jpg",
+      "Price": 100
+    },
+    {
+      "id": 2,
+      "Name": "Jamaican Cruise",
+      "Photo": "assets/images/cruise-ship.jpg",
+      "Price": 1500
+    },
+    {
+      "id": 3,
+      "Name": "Grimlock",
+      "Photo": "assets/images/grimlock.jpg",
+      "Price": 75
+    },
+    {
+      "id": 4,
+      "Name": "'53 Corvette'",
+      "Photo": "assets/images/car.jpg",
+      "Price": 65000.53
+    },
+    {
+      "id": 6,
+      "Name": "Huffy Bike",
+      "Photo": "assets/images/huffy.jpg",
+      "Price": 100
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "Name": "Atari 2600",
+      "Photo": "assets/images/atari.jpg",
+      "Price": 100
+    },
+    {
+      "id": 2,
+      "Name": "Jamaican Cruise",
+      "Photo": "assets/images/cruise-ship.jpg",
+      "Price": 1500
+    },
+    {
+      "id": 4,
+      "Name": "'53 Corvette'",
+      "Photo": "assets/images/car.jpg",
+      "Price": 65000.53
+    }
+  ]
+}

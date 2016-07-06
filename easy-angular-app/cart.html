@@ -1,0 +1,7 @@
+<div class="cart-container" ng-controller="CartController">
+  <ul class="cart-detail" ng-repeat="item in cart">
+    <li><img class="cart-image" src={{item.Photo}}></li>
+    <li>{{item.Name}}</li>
+    <li>{{item.Price | currency}}</li>
+  </ul>
+</div>

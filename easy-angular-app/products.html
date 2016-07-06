@@ -1,0 +1,7 @@
+<div class="products-container" ng-controller="ProductsController">
+  <ul class="products-detail" ng-controller="Menu" ng-repeat="item in products">
+    <li><a href="#/cart"><img class="products-image" ng-click="goToCart(item)" src={{item.Photo}}></a></li>
+    <li>{{item.Name}}</li>
+    <li>{{item.Price | currency}}</li>
+  </ul>
+</div>

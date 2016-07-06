@@ -1,0 +1,24 @@
+{
+  "name": "easy-angular-app",
+  "homepage": "https://github.com/erik-petersen/TIY-Assignments",
+  "authors": [
+    "Erik Petersen <contacterikpetersen@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "meyer-reset": "*",
+    "jquery": "^3.0.0",
+    "font-awesome": "^4.6.3",
+    "angular": "^1.5.7"
+  }
+}

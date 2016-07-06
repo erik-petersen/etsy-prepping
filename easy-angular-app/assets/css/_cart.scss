@@ -1,0 +1,22 @@
+$susy: (
+  columns: 12,
+  container: 95%
+);
+
+.products-container {
+  @include container;
+}
+
+.cart-detail {
+  @include container;
+  @include span( 4 of 12);
+  position: relative;
+  left: 1.45em;
+  margin: 5em auto 0;
+}
+
+.cart-image {
+  width: 10em;
+  height: 8em;
+  cursor: pointer;
+}
